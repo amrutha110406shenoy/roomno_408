@@ -1,0 +1,39 @@
+YOLO DRONE DETECTION COMPREHENSIVE TEST REPORT
+====================================================================================================
+
+Models Tested: yolov8n, yolov10n
+Trackers: BoTSORT, ByteTrack
+Datasets: Drone Detection (synthetic), Demo Video (airplanes)
+
+
+yolov8n + BoTSORT - Drone
+  Frames: 150 | Dets: 0 | FPS: 8.01
+  Inference: 116.2ms/frame | Tracks: 0
+
+yolov8n + ByteTrack - Drone
+  Frames: 150 | Dets: 0 | FPS: 13.43
+  Inference: 65.3ms/frame | Tracks: 0
+
+yolov10n + BoTSORT - Drone
+  Frames: 150 | Dets: 0 | FPS: 9.24
+  Inference: 98.3ms/frame | Tracks: 0
+
+yolov10n + ByteTrack - Drone
+  Frames: 150 | Dets: 0 | FPS: 10.06
+  Inference: 88.7ms/frame | Tracks: 0
+
+yolov8n + BoTSORT - Demo
+  Frames: 1050 | Dets: 739 | FPS: 5.53
+  Inference: 146.2ms/frame | Tracks: 4
+
+yolov8n + ByteTrack - Demo
+  Frames: 1050 | Dets: 736 | FPS: 6.40
+  Inference: 116.3ms/frame | Tracks: 5
+
+yolov10n + BoTSORT - Demo
+  Frames: 1050 | Dets: 676 | FPS: 6.72
+  Inference: 118.8ms/frame | Tracks: 6
+
+yolov10n + ByteTrack - Demo
+  Frames: 1050 | Dets: 669 | FPS: 6.89
+  Inference: 110.1ms/frame | Tracks: 11

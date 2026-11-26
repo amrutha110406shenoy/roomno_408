@@ -1,0 +1,103 @@
+========================================================================================================================
+YOLO DETECTION & TRACKING - TEST RESULTS REPORT
+========================================================================================================================
+
+Generated: 2026-11-25 21:13:24
+Test videos found: 8
+
+------------------------------------------------------------------------------------------------------------------------
+DETAILED RESULTS
+------------------------------------------------------------------------------------------------------------------------
+
+Video                               Model        Tracker      Size (MB)    Duration   Res         
+------------------------------------------------------------------------------------------------------------------------
+YOLO10n_botsort.mp4                 YOLOvOn      BoTSORT           55.83     42.0s 1920x1080   
+YOLO10n_bytetrack.mp4               YOLOvOn      ByteTrack         25.75      0.0s 0x0         
+YOLO8n_botsort.mp4                  YOLOvOn      BoTSORT           55.66     42.0s 1920x1080   
+YOLO8n_bytetrack.mp4                YOLOvOn      ByteTrack         55.58     42.0s 1920x1080   
+yolov10n_botsort.mp4                YOLOvon      BoTSORT           55.83     42.0s 1920x1080   
+yolov10n_bytetrack.mp4              YOLOvon      ByteTrack         55.71     42.0s 1920x1080   
+yolov8n_botsort.mp4                 YOLOvon      BoTSORT           55.66     42.0s 1920x1080   
+yolov8n_bytetrack.mp4               YOLOvon      ByteTrack         55.58     42.0s 1920x1080   
+------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                             415.60MB
+
+========================================================================================================================
+ANALYSIS BY MODEL
+========================================================================================================================
+
+YOLOvOn:
+  Test combinations: 4
+    • BoTSORT      |    55.83MB |    42.0s | 10889.0kbps
+    • ByteTrack    |    25.75MB |     0.0s |     0.0kbps
+  Averages: 48.20MB, 31.5s per video
+
+YOLOvon:
+  Test combinations: 4
+    • BoTSORT      |    55.83MB |    42.0s | 10889.0kbps
+    • ByteTrack    |    55.71MB |    42.0s | 10867.0kbps
+  Averages: 55.70MB, 42.0s per video
+
+========================================================================================================================
+ANALYSIS BY TRACKER
+========================================================================================================================
+
+BoTSORT:
+  Test combinations: 4
+  Model        | Size       | Duration   | Bitrate     
+    YOLOvOn      |    55.83MB |     42.0s |    10889.0kbps
+    YOLOvOn      |    55.66MB |     42.0s |    10856.4kbps
+    YOLOvon      |    55.83MB |     42.0s |    10889.0kbps
+    YOLOvon      |    55.66MB |     42.0s |    10856.4kbps
+  Totals: 222.98MB overall, 42.0s average per video
+
+ByteTrack:
+  Test combinations: 4
+  Model        | Size       | Duration   | Bitrate     
+    YOLOvOn      |    25.75MB |      0.0s |        0.0kbps
+    YOLOvOn      |    55.58MB |     42.0s |    10840.5kbps
+    YOLOvon      |    55.71MB |     42.0s |    10867.0kbps
+    YOLOvon      |    55.58MB |     42.0s |    10840.5kbps
+  Totals: 192.62MB overall, 31.5s average per video
+
+========================================================================================================================
+EFFICIENCY METRICS
+========================================================================================================================
+
+Metric                         Best                 Value               
+------------------------------------------------------------------------------------------------------------------------
+Smallest file                  YOLOvOn + ByteTrack  25.75MB
+Fastest processing             YOLOvOn + ByteTrack  0.0s
+Highest bitrate (quality)      YOLOvOn + BoTSORT    10889.0kbps
+
+------------------------------------------------------------------------------------------------------------------------
+MODEL PERFORMANCE (avg file size)
+------------------------------------------------------------------------------------------------------------------------
+  YOLOvOn                 48.20MB
+  YOLOvon                 55.70MB
+
+------------------------------------------------------------------------------------------------------------------------
+TRACKER PERFORMANCE (avg file size)
+------------------------------------------------------------------------------------------------------------------------
+  BoTSORT                 55.74MB
+  ByteTrack               48.16MB
+
+========================================================================================================================
+RECOMMENDATIONS
+========================================================================================================================
+
+1. BEST OVERALL PERFORMANCE:
+   YOLOvOn + ByteTrack (25.75MB)
+
+2. FOR REAL-TIME PROCESSING:
+   YOLOvOn + ByteTrack (0.0s processing time)
+
+3. FOR BEST QUALITY:
+   YOLOvOn + BoTSORT (10889.0kbps)
+
+4. RECOMMENDED COMBINATIONS:
+   • For drone interception: YOLOv8n + ByteTrack (balance of speed & accuracy)
+   • For archive: YOLOv10n + BoTSORT (best quality)
+   • For edge devices: YOLOv8n + ByteTrack (fastest)
+
+========================================================================================================================

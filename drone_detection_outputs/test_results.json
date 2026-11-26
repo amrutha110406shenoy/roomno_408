@@ -1,0 +1,10 @@
+[
+  {
+    "model": "yolov8n",
+    "tracker": "BoTSORT",
+    "total_detections": 0,
+    "frames": 100,
+    "total_time": 18.330865144729614,
+    "avg_fps": 5.455279890526685,
+    "avg_inference": 160.90747833251953,
+    "output": 

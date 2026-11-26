@@ -1,0 +1,102 @@
+UAV VIDEO DETECTION TEST REPORT
+====================================================================================================
+Models: yolov8n, yolov10n
+Trackers: BoTSORT, ByteTrack
+Videos Tested: 4
+
+
+====================================================================================================
+istockphoto-1287277966-640_adpp_is.mp4
+====================================================================================================
+
+yolov8n + BoTSORT:
+  Frames: 554 | Detections: 118 | Avg/Frame: 0.21 | FPS: 6.65
+  Inference: 144.5ms | Unique Tracks: 8
+  Output: yolov8n_botsort_istockphoto-1287277966-640_adpp_is.mp4
+
+yolov8n + ByteTrack:
+  Frames: 554 | Detections: 125 | Avg/Frame: 0.23 | FPS: 11.60
+  Inference: 81.2ms | Unique Tracks: 8
+  Output: yolov8n_bytetrack_istockphoto-1287277966-640_adpp_is.mp4
+
+yolov10n + BoTSORT:
+  Frames: 554 | Detections: 114 | Avg/Frame: 0.21 | FPS: 10.04
+  Inference: 94.5ms | Unique Tracks: 8
+  Output: yolov10n_botsort_istockphoto-1287277966-640_adpp_is.mp4
+
+yolov10n + ByteTrack:
+  Frames: 554 | Detections: 116 | Avg/Frame: 0.21 | FPS: 8.36
+  Inference: 114.2ms | Unique Tracks: 6
+  Output: yolov10n_bytetrack_istockphoto-1287277966-640_adpp_is.mp4
+
+====================================================================================================
+istockphoto-2170041017-640_adpp_is.mp4
+====================================================================================================
+
+yolov8n + BoTSORT:
+  Frames: 183 | Detections: 0 | Avg/Frame: 0.00 | FPS: 6.69
+  Inference: 141.7ms | Unique Tracks: 0
+  Output: yolov8n_botsort_istockphoto-2170041017-640_adpp_is.mp4
+
+yolov8n + ByteTrack:
+  Frames: 183 | Detections: 1 | Avg/Frame: 0.01 | FPS: 8.74
+  Inference: 106.6ms | Unique Tracks: 1
+  Output: yolov8n_bytetrack_istockphoto-2170041017-640_adpp_is.mp4
+
+yolov10n + BoTSORT:
+  Frames: 183 | Detections: 0 | Avg/Frame: 0.00 | FPS: 8.61
+  Inference: 108.3ms | Unique Tracks: 0
+  Output: yolov10n_botsort_istockphoto-2170041017-640_adpp_is.mp4
+
+yolov10n + ByteTrack:
+  Frames: 183 | Detections: 0 | Avg/Frame: 0.00 | FPS: 10.21
+  Inference: 90.3ms | Unique Tracks: 0
+  Output: yolov10n_bytetrack_istockphoto-2170041017-640_adpp_is.mp4
+
+====================================================================================================
+istockphoto-2291118401-640_adpp_is.mp4
+====================================================================================================
+
+yolov8n + BoTSORT:
+  Frames: 181 | Detections: 0 | Avg/Frame: 0.00 | FPS: 7.13
+  Inference: 133.4ms | Unique Tracks: 0
+  Output: yolov8n_botsort_istockphoto-2291118401-640_adpp_is.mp4
+
+yolov8n + ByteTrack:
+  Frames: 181 | Detections: 0 | Avg/Frame: 0.00 | FPS: 8.56
+  Inference: 109.3ms | Unique Tracks: 0
+  Output: yolov8n_bytetrack_istockphoto-2291118401-640_adpp_is.mp4
+
+yolov10n + BoTSORT:
+  Frames: 181 | Detections: 0 | Avg/Frame: 0.00 | FPS: 6.92
+  Inference: 137.6ms | Unique Tracks: 0
+  Output: yolov10n_botsort_istockphoto-2291118401-640_adpp_is.mp4
+
+yolov10n + ByteTrack:
+  Frames: 181 | Detections: 2 | Avg/Frame: 0.01 | FPS: 7.83
+  Inference: 120.6ms | Unique Tracks: 1
+  Output: yolov10n_bytetrack_istockphoto-2291118401-640_adpp_is.mp4
+
+====================================================================================================
+istockphoto-2291460380-640_adpp_is.mp4
+====================================================================================================
+
+yolov8n + BoTSORT:
+  Frames: 170 | Detections: 48 | Avg/Frame: 0.28 | FPS: 9.01
+  Inference: 106.4ms | Unique Tracks: 2
+  Output: yolov8n_botsort_istockphoto-2291460380-640_adpp_is.mp4
+
+yolov8n + ByteTrack:
+  Frames: 170 | Detections: 47 | Avg/Frame: 0.28 | FPS: 11.13
+  Inference: 85.4ms | Unique Tracks: 2
+  Output: yolov8n_bytetrack_istockphoto-2291460380-640_adpp_is.mp4
+
+yolov10n + BoTSORT:
+  Frames: 170 | Detections: 64 | Avg/Frame: 0.38 | FPS: 10.42
+  Inference: 91.7ms | Unique Tracks: 1
+  Output: yolov10n_botsort_istockphoto-2291460380-640_adpp_is.mp4
+
+yolov10n + ByteTrack:
+  Frames: 170 | Detections: 64 | Avg/Frame: 0.38 | FPS: 11.41
+  Inference: 83.4ms | Unique Tracks: 1
+  Output: yolov10n_bytetrack_istockphoto-2291460380-640_adpp_is.mp4

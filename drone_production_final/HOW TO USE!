@@ -1,0 +1,11 @@
+from ultralytics import YOLO
+
+# Load your fine-tuned model
+model = YOLO("C:/Users/amrut/DroneImageProcessing/runs/detect/drone_finetuned_models/yolov8n_drone_fast/weights/best.pt")
+
+# Detect drones in any video or image
+results = model.predict(source="your_video.mp4", conf=0.5)
+
+# Get detections
+for box in results[0].boxes:
+    print(f"Drone detected: {box.conf:.2f} confidence")

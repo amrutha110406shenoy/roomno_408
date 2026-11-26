@@ -1,0 +1,63 @@
+
+================================================================================
+📊 YOLO8n BoTSORT Detection Report
+================================================================================
+
+📈 Frame Statistics:
+  Total Frames Processed: 1050
+  Total Detections: 739
+  Avg Detections/Frame: 0.70
+  Max Detections/Frame: 1
+  Min Detections/Frame: 0
+  Frames with Detections: 739
+
+⚡ Performance Metrics:
+  Total Processing Time: 174.95s
+  Actual FPS: 6.00
+  Avg Inference/Frame: 157.56ms
+  Min Inference/Frame: 100.01ms
+  Max Inference/Frame: 5787.31ms
+
+🎯 Confidence Statistics:
+  Avg Confidence: 0.7574
+  Min Confidence: 0.5041
+  Max Confidence: 0.9420
+  Std Dev: 0.1016
+
+🏷️  Class Distribution:
+  airplane                    739 detections (100.0%)
+
+🔗 Tracking Statistics (BoTSORT):
+  Unique Track IDs: 4
+
+
+================================================================================
+📊 YOLO8n ByteTrack Detection Report
+================================================================================
+
+📈 Frame Statistics:
+  Total Frames Processed: 1050
+  Total Detections: 736
+  Avg Detections/Frame: 0.70
+  Max Detections/Frame: 1
+  Min Detections/Frame: 0
+  Frames with Detections: 736
+
+⚡ Performance Metrics:
+  Total Processing Time: 155.23s
+  Actual FPS: 6.76
+  Avg Inference/Frame: 135.07ms
+  Min Inference/Frame: 93.96ms
+  Max Inference/Frame: 1382.18ms
+
+🎯 Confidence Statistics:
+  Avg Confidence: 0.7578
+  Min Confidence: 0.5041
+  Max Confidence: 0.9420
+  Std Dev: 0.1014
+
+🏷️  Class Distribution:
+  airplane                    736 detections (100.0%)
+
+🔗 Tracking Statistics (ByteTrack):
+  Unique Track IDs: 5
